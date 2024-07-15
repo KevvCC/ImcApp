@@ -44,7 +44,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
-    implementation("@androidx.navigation:navigation-Activity-ktx:2.7.2")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
