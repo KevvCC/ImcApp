@@ -5,25 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menuActivity"
-    android:background="@color/md_theme_secondaryFixedDim_highContrast">
-
+    android:background="@color/md_theme_secondaryFixedDim_highContrast"
+    tools:context=".menuActivity">
 
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnImcApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/md_theme_tertiary_highContrast"
         android:text="@string/Imc_App"
-        android:textStyle="bold"
-        android:textSize="30sp"
         android:textColor="@color/white"
-        android:background="@color/md_theme_tertiary_highContrast"/>
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
