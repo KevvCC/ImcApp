@@ -7,7 +7,7 @@ import androidx.appcompat.widget.AppCompatButton
 import com.example.nada.imcapp.ImcAppActivity
 
 
-class menuActivity : AppCompatActivity() {
+class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
